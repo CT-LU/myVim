@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/ubuntu/Ludan_fork/DeviceSensorOnly/LIPS_dev_pack/Platform/Linux/DeviceSensor'
+let g:netrw_dirhist_2='/media/ludan/a920d050-0009-451e-ac66-78d8a28c115f/mycard/projects/1015/lips_dev_pack/Platform/Linux/DeviceSensor'
+let g:netrw_dirhist_3='/home/ludan/�ୱ'
+let g:netrw_dirhist_4='/home/ludan/下載/dma_sample/sample_dmac'

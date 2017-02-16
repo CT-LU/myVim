@@ -46,7 +46,7 @@ set number                   " enable line numbers
 set autoindent               " enable autoindent
 set expandtab                " use space instead of tab
 set tabstop=8                " insert 2 spaces for a tab
-set shiftwidth=2             " the number of space characters inserted for indentation
+set shiftwidth=8             " the number of space characters inserted for indentation
 syntax on                    " enable syntax highlighting
 colors Tomorrow-Night-Bright " vim color scheme
 set autoread                 " auto read when file is changed from outside

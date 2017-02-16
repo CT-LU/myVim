@@ -22,22 +22,22 @@
            
   }
    
-  5 if (true) {
-  6         $
-  7 }
-  8 
-  9 switch (/* variable */) {
- 10         case /* variable case */:
- 11                 
- 12                 break;
- 13         default:
- 14                 
- 15 }
- 16 
- 17 do {
- 18         $
- 19 } while (/* condition */);
- 20 
+  if (true) {
+           $
+  }
+   
+  switch (/* variable */) {
+         case /* variable case */:
+                 
+                 break;
+         default:
+                 
+ }
+ 
+ do {
+         $
+ } while (/* condition */);
+ 
  21 while (/* condition */) {
  22         $
  23 } 

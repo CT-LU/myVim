@@ -8,7 +8,7 @@
 1. F2 : copen a window and automatically type :grep 
 2. F3 : NERD_tree for going to specific path
 3. F4 : List all symbols under editing file 
-4. Ctr + p : file/buffer finder(ctrlp) 
+4. Ctr + p : file/buffer finder(using ctrlp) 
 5. key mapping:<br />
    g h : mapping ctr + w  h<br />
    g j : mapping ctr + w  j<br />

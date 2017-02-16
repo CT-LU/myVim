@@ -66,6 +66,7 @@ set showmode                 " Show current mode
 set backspace=2              " make backspace work like most other apps
 
 " ctags
+inoremap <C-]> <C-x><C-]> 
 set tags=./tags;
 "set tags+=~/.vim/cltags
 "set tags+=~/.vim/systags

@@ -38,7 +38,7 @@
          
  } while (/* condition */);
  
- 21 while (/* condition */) {
- 22         
- 23 } 
+ while (/* condition */) {
+         
+ } 
    

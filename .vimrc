@@ -71,7 +71,7 @@ set tags=./tags;
 "set tags+=~/.vim/cltags
 "set tags+=~/.vim/systags
 
-"
+"syn match Operator contained "[()]"
 
 " tmux will only forward escape sequences to the terminal if surrounded by a DCS sequence
 " http://sourceforge.net/mailarchive/forum.php?thread_name=AANLkTinkbdoZ8eNR1X2UobLTeww1jFrvfJxTMfKSq-L%2B%40mail.gmail.com&forum_name=tmux-users
@@ -107,7 +107,7 @@ cnoremap <C-E>      <End>
 cnoremap <C-K>      <C-U>
 
 " open sidebar with cmd+k
-map <C-l> <Esc>:NERDTreeToggle<CR>
+map <F4> <Esc>:NERDTreeToggle<CR>
 
 " encoding settings
 set encoding=utf-8
@@ -132,9 +132,11 @@ highlight clear SignColumn " For the same appearance as your line number column
 map <F2> <Esc>:copen<CR>:grep 
 
 " --- tagbar which show funcs & vars
-nmap <C-u> <Esc>:TagbarToggle<CR>
+nmap <F3> <Esc>:TagbarToggle<CR>
 
 " --- ctrlp is a finder
 let g:ctrlp_dont_split = 'NERD_tree_2'
 let g:ctrlp_show_hidden = 1
 
+" --- for the color of operator ()
+autocmd FileType * syn match Operator "[()]"

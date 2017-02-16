@@ -27,10 +27,10 @@
   }
    
   switch (/* variable */) {
-         case :
+     case :
                  
-                 break;
-         default:
+     break;
+     default:
                  
  }
  

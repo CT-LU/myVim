@@ -11,7 +11,7 @@
 4. Ctr + p : file/buffer finder(ctrlp) 
 
 ### For jumping between windows quikly:
-g h : mapping ctr + w  h
-g j : mapping ctr + w  j
-g k : mapping ctr + w  k
-g l : mapping ctr + w  l
+g h : mapping ctr + w  h<br />
+g j : mapping ctr + w  j<br />
+g k : mapping ctr + w  k<br />
+g l : mapping ctr + w  l<br />

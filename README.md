@@ -23,11 +23,11 @@
   }
    
   if (true) {
-           $
+           
   }
    
   switch (/* variable */) {
-         case /* variable case */:
+         case :
                  
                  break;
          default:
@@ -35,10 +35,10 @@
  }
  
  do {
-         $
+         
  } while (/* condition */);
  
  21 while (/* condition */) {
- 22         $
+ 22         
  23 } 
    

@@ -14,3 +14,31 @@
    g j : mapping ctr + w  j<br />
    g k : mapping ctr + w  k<br />
    g l : mapping ctr + w  l<br />
+6. You can try a couple of complete:<br />
+   Ctr + ] , Ctr + n, Ctr + p
+   if(tab) , for(tab), switch(tab), do(tab), while(tab) will show as below
+   
+  1 for (int i = 0; i < count; i++) {
+  2         
+  3 }
+  4 
+  5 if (true) {
+  6         $
+  7 }
+  8 
+  9 switch (/* variable */) {
+ 10         case /* variable case */:
+ 11                 
+ 12                 break;
+ 13         default:
+ 14                 
+ 15 }
+ 16 
+ 17 do {
+ 18         $
+ 19 } while (/* condition */);
+ 20 
+ 21 while (/* condition */) {
+ 22         $
+ 23 } 
+   

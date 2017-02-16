@@ -16,12 +16,12 @@
    g l : mapping ctr + w  l<br />
 6. You can try a couple of complete:<br />
    Ctr + ] , Ctr + n, Ctr + p
-   if(tab) , for(tab), switch(tab), do(tab), while(tab) will show as below
+   if(tab) , for(tab), switch(tab), do(tab), while(tab) will automatically show as below
    
-  1 for (int i = 0; i < count; i++) {
-  2         
-  3 }
-  4 
+  for (int i = 0; i < count; i++) {
+           
+  }
+   
   5 if (true) {
   6         $
   7 }

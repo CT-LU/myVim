@@ -10,7 +10,7 @@
 3. F4 : List all symbols under editing file 
 4. Ctr + p : file/buffer finder(ctrlp) 
 5. key mapping:<br />
-g h : mapping ctr + w  h<br />
-g j : mapping ctr + w  j<br />
-g k : mapping ctr + w  k<br />
-g l : mapping ctr + w  l<br />
+   g h : mapping ctr + w  h<br />
+   g j : mapping ctr + w  j<br />
+   g k : mapping ctr + w  k<br />
+   g l : mapping ctr + w  l<br />

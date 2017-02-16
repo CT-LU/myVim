@@ -45,7 +45,7 @@ set history=50               " keep 50 lines of command line history
 set number                   " enable line numbers
 set autoindent               " enable autoindent
 set expandtab                " use space instead of tab
-set tabstop=4                " insert 2 spaces for a tab
+set tabstop=8                " insert 2 spaces for a tab
 set shiftwidth=2             " the number of space characters inserted for indentation
 syntax on                    " enable syntax highlighting
 colors Tomorrow-Night-Bright " vim color scheme
@@ -65,9 +65,12 @@ set showmatch                " Cursor shows matching ) and }
 set showmode                 " Show current mode
 set backspace=2              " make backspace work like most other apps
 
+" ctags
 set tags=./tags;
 "set tags+=~/.vim/cltags
 "set tags+=~/.vim/systags
+
+"
 
 " tmux will only forward escape sequences to the terminal if surrounded by a DCS sequence
 " http://sourceforge.net/mailarchive/forum.php?thread_name=AANLkTinkbdoZ8eNR1X2UobLTeww1jFrvfJxTMfKSq-L%2B%40mail.gmail.com&forum_name=tmux-users
@@ -120,18 +123,17 @@ set laststatus=2
 " --- PowerLine
 let g:Powerline_symbols = 'fancy' " require fontpatcher
 
-" --- vim-gitgutter
+" --- vim-gitgutter which show a git diff 
 let g:gitgutter_enabled = 1
 highlight clear SignColumn " For the same appearance as your line number column
 
-" --- display grep 
-map <F2> <Esc>:copen<CR>
-nmap <F3> :grep 
+" --- grep window
+map <F2> <Esc>:copen<CR>:grep 
 
-" --- tagbar
+" --- tagbar which show funcs & vars
 nmap <C-u> <Esc>:TagbarToggle<CR>
 
-" --- ctrlp
+" --- ctrlp is a finder
 let g:ctrlp_dont_split = 'NERD_tree_2'
 let g:ctrlp_show_hidden = 1
 

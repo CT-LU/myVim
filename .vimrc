@@ -107,7 +107,7 @@ cnoremap <C-E>      <End>
 cnoremap <C-K>      <C-U>
 
 " open sidebar with cmd+k
-map <F4> <Esc>:NERDTreeToggle<CR>
+map <F3> <Esc>:NERDTreeToggle<CR>
 
 " encoding settings
 set encoding=utf-8
@@ -132,7 +132,7 @@ highlight clear SignColumn " For the same appearance as your line number column
 map <F2> <Esc>:copen<CR>:vimgrep / 
 
 " --- tagbar which show funcs & vars
-nmap <F3> <Esc>:TagbarToggle<CR>
+nmap <F4> <Esc>:TagbarToggle<CR>
 
 " --- ctrlp is a finder
 let g:ctrlp_dont_split = 'NERD_tree_2'

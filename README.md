@@ -5,7 +5,8 @@
 2. After you open vim, you should execute :BundleUpdate for the first time.
 
 ### How to use:
-1. F2 : copen a window and automatically type :grep 
+1. F2 : copen a window and automatically type :grep ..... -e "pattern you want"
+
 2. F3 : NERD_tree for going to specific path
 3. F4 : List all symbols under editing file 
 4. Ctr + p : file/buffer finder(using ctrlp) 

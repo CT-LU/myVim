@@ -129,7 +129,7 @@ let g:gitgutter_enabled = 1
 highlight clear SignColumn " For the same appearance as your line number column
 
 " --- grep window
-map <F2> <Esc>:copen<CR>:grep -srn --binary-files=without-match --exclude-dir=.git --exclude=.s . -e  
+map <F2> <Esc>:copen<CR>:grep -srn --binary-files=without-match --exclude-dir=.git --exclude={*.s,tags} . -e  
 
 " --- tagbar which show funcs & vars
 nmap <F4> <Esc>:TagbarToggle<CR>

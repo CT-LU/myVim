@@ -129,7 +129,7 @@ let g:gitgutter_enabled = 1
 highlight clear SignColumn " For the same appearance as your line number column
 
 " --- grep window
-map <F2> <Esc>:copen<CR>:grep 
+map <F2> <Esc>:copen<CR>:vimgrep / 
 
 " --- tagbar which show funcs & vars
 nmap <F3> <Esc>:TagbarToggle<CR>
@@ -140,3 +140,6 @@ let g:ctrlp_show_hidden = 1
 
 " --- for the color of operator ()
 autocmd FileType * syn match Operator "[()]"
+
+" --- for the search highlight
+set hlsearch

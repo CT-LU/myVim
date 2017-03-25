@@ -144,5 +144,3 @@ autocmd FileType * syn match Operator "[()]"
 " --- for the search highlight
 set hlsearch
 
-" --- copy & paste
-set paste

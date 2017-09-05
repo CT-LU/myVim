@@ -138,6 +138,8 @@ map <F2> <Esc>:copen<CR>:grep -srn --binary-files=without-match --exclude-dir={.
 
 " --- tagbar which show funcs & vars
 nmap <F4> <Esc>:TagbarToggle<CR>
+" --- ctags window                                                                                                           
+map <F5> <Esc>:copen<CR>:!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q --langmap=c++:+.cu.cl
 
 " --- ctrlp is a finder
 let g:ctrlp_dont_split = 'NERD_tree_2'

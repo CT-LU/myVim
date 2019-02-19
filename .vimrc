@@ -42,6 +42,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'honza/vim-snippets'
 Bundle 'garbas/vim-snipmate'
 Bundle 'will133/vim-dirdiff'
+Bundle 'mileszs/ack.vim'
 
 
 " general
@@ -134,7 +135,8 @@ let g:gitgutter_enabled = 1
 highlight clear SignColumn " For the same appearance as your line number column
 
 " --- grep window
-map <F2> <Esc>:copen<CR>:grep -srn --binary-files=without-match --exclude-dir={.git,.svn} --exclude={*.s,tags} . -e  
+"map <F2> <Esc>:copen<CR>:grep -srn --binary-files=without-match --exclude-dir={.git,.svn} --exclude={*.s,tags} . -e  
+map <F2> <Esc>:Ack<space>
 
 " --- tagbar which show funcs & vars
 nmap <F4> <Esc>:TagbarToggle<CR>

@@ -150,6 +150,13 @@ let g:ctrlp_show_hidden = 1
 " --- for the color of operator ()
 autocmd FileType * syn match Operator "[()]"
 
+
+set cursorline
+hi CursorLine cterm=none ctermbg=DarkMagenta ctermfg=White
+
+set cursorcolumn
+hi CursorColumn cterm=none ctermbg=DarkMagenta ctermfg=White
+
 " --- for the search highlight
 set hlsearch
-
+hi Search cterm=reverse ctermbg=none ctermfg=none

@@ -43,6 +43,7 @@ Bundle 'honza/vim-snippets'
 Bundle 'garbas/vim-snipmate'
 Bundle 'will133/vim-dirdiff'
 Bundle 'mileszs/ack.vim'
+Bundle 'zxqfl/tabnine-vim'
 
 
 " general
@@ -136,7 +137,7 @@ highlight clear SignColumn " For the same appearance as your line number column
 
 " --- grep window
 "map <F2> <Esc>:copen<CR>:grep -srn --binary-files=without-match --exclude-dir={.git,.svn} --exclude={*.s,tags} . -e  
-map <F2> <Esc>:Ack<space>
+map <F2> <Esc>:Ack --plone --js --cpp<space>
 
 " --- tagbar which show funcs & vars
 nmap <F4> <Esc>:TagbarToggle<CR>

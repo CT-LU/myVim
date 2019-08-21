@@ -142,7 +142,7 @@ map <F2> <Esc>:Ack --plone --js --cpp<space>
 " --- tagbar which show funcs & vars
 nmap <F4> <Esc>:TagbarToggle<CR>
 " --- ctags window                                                                                                           
-map <F5> <Esc>:copen<CR>:!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q --langmap=c++:+.cu.cl
+map <F5> <Esc>:copen<CR>:!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q --langmap=c++:+.cu.cl --languages=
 
 " --- ctrlp is a finder
 let g:ctrlp_dont_split = 'NERD_tree_2'

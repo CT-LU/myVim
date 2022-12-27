@@ -102,10 +102,10 @@ set guioptions-=r
 autocmd Filetype gitcommit setlocal spell textwidth=72
 
 " to move effeciently between splits
-nmap gh <C-w>h
-nmap gj <C-w>j
-nmap gk <C-w>k
-nmap gl <C-w>l
+"nmap gh <C-w>h
+"nmap gj <C-w>j
+"nmap gk <C-w>k
+"nmap gl <C-w>l
 
 " Bash like keys for the command line
 cnoremap <C-A>      <Home>
